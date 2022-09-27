@@ -11,7 +11,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: 192.168.111.159
+        server: 1254.444.111.159
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
         port: 50000
